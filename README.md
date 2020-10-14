@@ -2,12 +2,6 @@
 
 Test utility for testing functionality of [ledger-app-xrp](https://github.com/LedgerHQ/ledger-app-xrp) targeting Ledger Nano S and Ledger Nano X.
 
-**Important notice:** Most of the test transactions are too large to be transferred to the device using the
-old transport protocol in [ledger-app-xrp](https://github.com/LedgerHQ/ledger-app-xrp) version 1.0.9
-and below. The updated transport protocol in version 2.0.0, is not yet available in
-Ledger's [hw-app-xrp](https://www.npmjs.com/package/@ledgerhq/hw-app-xrp), which will cause
-most of the tests to fail. In the mean time, developers may use [Towo Labs' fork](https://github.com/TowoLabs/ledgerjs/tree/master/packages/hw-app-xrp) of the module which fully supports the updated protocol.
-
 ## Usage
 ### Installation
 Install the package dependencies by running:
