@@ -15,7 +15,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@ledgerhq/hw-app-xrp": "^5.21.0",
-    "@ledgerhq/hw-transport-node-hid": "^4.78.0",
+    "@ledgerhq/hw-transport-node-hid": "^5.45.0",
     "glob": "^7.1.6",
     "minimist": "^1.2.3",
     "node-hid": "^0.7.9",
